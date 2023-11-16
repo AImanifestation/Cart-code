@@ -1,0 +1,32 @@
+/* Cart page */
+body#cart #page {
+    background: #F7EFE7;
+}
+body#cart div#sqs-cart-root * {
+    color: black !important;
+}
+.cart-title {
+    visibility: hidden;
+}
+.cart-title:before {
+    visibility: visible;
+    content: "Shopping Cart";
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.cart-item-list-labels span {
+    font-size: 25px !important;
+    color: black;
+}
+
+body .checkout button._3yWY284uI {
+  background: #3252a8;
+    color: #3252a8; 
+  font-family: 'MDNichrome0.7';
+}
+.Cart-inner {
+  display: flex;
+  align-items: center;
+}
